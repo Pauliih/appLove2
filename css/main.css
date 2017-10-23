@@ -1,73 +1,213 @@
 /*CLASES REUTILIZABLES*/
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
 }
 
 *:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  margin: 0 auto;
-  font-size: 16px;
-  line-height: 1.71429;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 1.71429;
 }
 
 img {
-  vertical-align: middle;
+	vertical-align: middle;
 }
 
 .container {
-  width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 14px;
-  padding-right: 14px;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 14px;
+	padding-right: 14px;
 }
 
 .container:before, .container:after {
-  content: " ";
-  display: table;
+	content: " ";
+	display: table;
 }
 
 *:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .container:after {
-  clear: both;
+	clear: both;/*both: Es un keyword que indica que el elemento es movido hacia abajo para limpiar tanto elementos flotantes de la izquierda como de la derecha.*/
 }
 
 .mb-0 {
-  margin-bottom: 0px;
+	margin-bottom: 0px;
 }
 
 .mt-0 {
-  margin-top: 0px;
+	margin-top: 0px;
 }
 
 .m-0 {
-  margin: 0px;
+	margin: 0px;
 }
 
 a {
-  color: #373B47;
-  text-decoration: none;
+	color: #373B47;
+	text-decoration: none;
 }
 
 a:hover {
-  color: #E95853;
+	color: #E95853;
 }
 
-.text-uppercase {
-  text-transform: uppercase;
+.text-uppercase { /*pasa el texto a mayusculas*/
+	text-transform: uppercase;
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+header{
+	background: white;
+	width: 100%;
+	top: 0;
 
+	position: fixed; /* para que quede estatico el "menu"*/
+}
+
+div{
+	display: block;
+}
+
+.logo{
+	float: right;
+}
+
+#home{
+	height: 555px;
+	margin-top: 80px;
+	text-align: center;
+	background-image: url(../assets/images/bg-home.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	background-position: center;  
+}
+
+.menu{
+	padding: 15px 70px;
+	color: white;
+	overflow: auto;
+}
+
+.link{
+	font-weight: 700;
+	padding: 20px;
+
+	display: inline-block;
+}
+
+#home .container{
+	color: white;
+	padding: 70px;
+}
+
+.txt-home{
+	font-size: 55px;
+}
+
+.btn-home{
+	background: #2ecc71;
+	color: #fff;
+	padding: 11px 20px;
+	border-radius: 1px;
+	margin-top: 60px;
+
+	display: inline-block;
+}
+/*---------------------------------------------*/
+
+#services{
+	background-color: #F17C72;
+	text-align: center;
+	color: #fff;
+	padding: 70px 7px;
+}
+
+.txt-services{
+	font-size: 35px;
+  /*letter-spacing: 2px;*/
+}
+
+.h4-services{
+	text-align: center;
+}
+
+.cajas-services{
+	width: 30%;
+	margin-top: 63px;
+
+	display: inline-block;
+}
+
+.services-1,.services-2,.services-3{
+	width: 200px;
+}
+
+/*-------------------------------------------*/
+
+.work{
+	text-align: center;
+}
+
+.txt-work{
+	font-size: 35px;
+}
+
+.work h4{
+	padding-bottom: 50px;
+}
+
+.hero{
+	width: 80%;
+}
+
+/*----------------------------------------*/
+.projects_row1 img{
+	width: 100%;
+	overflow: hidden;
+}
+
+.projects_row2 img{
+	width: 100%;
+	overflow: hidden;
+}
+
+.projects_row3 img{
+	width: 100%;
+	overflow: hidden;
+}
+
+.row{
+	padding: 40px;
+	width: 33.3%;
+	float: left;
+}
+.txt-img{
+	text-align: center;
+	font-weight: 700;
+}
+
+/*----------------------------------------*/
+footer{
+	text-align: center;
+  height: 70px;
+  background-color: #373b47;
+  color: white;
+  padding-top: 5px;
+  margin-top: 50px;
+}

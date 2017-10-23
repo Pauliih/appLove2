@@ -1,66 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>AppLove</title>
-    <link rel="stylesheet" href="css/main.css">
+	 <meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	 <title>AppLove</title>
+	 <!-- Enlazar fuente y css-->
+	 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	 <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <header>
-      <div>
-        <a>Services</a>
-        <a>Work</a>
-        <a>The team</a>
-      </div>
-    </header>
-    <section>
-      <div>
-        <h2>you just found an untilmate</h2>
-        <h1>We are applove from heart</h1>
-        <p>handcrafted - modern design - pixel perfect - passioned design</p>
-        <a>View services</a>
-      </div>
-    </section>
-    <section>
-      <div>
-        <h2>Services</h2>
-        <h4>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididuntut,<br>
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-        </h4>
-        <div>
-          <h5>user interface design</h5>
-          <h6>Wireframing</h6>
-          <h6>Prototyping</h6>
-          <h6>Usability testing</h6>
-        </div>
-        <div>
-          <h5>concept and ideas</h5>
-          <h6>Conceptualization</h6>
-          <h6>Digital Branding</h6>
-          <h6>Product Strategy</h6>
-        </div>
-        <div>
-          <h5>desing and branding</h5>
-          <h6>Interaction Design</h6>
-          <h6>Graphic Design</h6>
-          <h6>Identity Design</h6>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div>
-        <h2>work</h2>
-        <h4>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididuntut,<br>
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-        </h4>
-      </div>
-    </section>
-    <footer>
-      <p>&#169; Copyright</p>
-    </footer>
+	 <header>
+		<div class="menu container text-uppercase">
+		  <a href="#services" class="link">Services</a>
+		  <a href="#work" class="link">Work</a>
+		  <a href="#" class="link">The team</a>
+		  <img src="assets/images/logo.png" alt="logo" class="logo" width="70">
+		</div>
+	 </header>
+	 <section id="home">
+		<div class="container">
+		  <h2 class="text-uppercase">you just found an untilmate</h2>
+		  <h1 class="text-uppercase txt-home mb-0">We are applove from heart</h1>
+		  <p class="text-uppercase mt-0">handcrafted - modern design - pixel perfect - passioned design</p>
+		  <a href="#services" class="text-uppercase btn-home">View services</a>
+		</div>
+	 </section>
+	 <section id="services">
+		<div class="container">
+		  <h2 class="text-uppercase txt-services mt-0">Services</h2>
+		  <h4>
+			 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididuntut,<br>
+			 magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+		  </h4>
+		  <div class="cajas-services">
+		  	<img src="assets/images/services-1.png" alt="services-1" class="services-1">
+			 <h5 class="text-uppercase mb-0">user interface design</h5>
+			 <h6 class="m-0">Wireframing</h6>
+			 <h6 class="m-0">Prototyping</h6>
+			 <h6 class="m-0">Usability testing</h6>
+		  </div>
+		  <div class="cajas-services">
+		  	 <img src="assets/images/services-2.png" alt="services-2" class="services-2">
+			 <h5 class="text-uppercase mb-0">concept and ideas</h5>
+			 <h6 class="m-0">Conceptualization</h6>
+			 <h6 class="m-0">Digital Branding</h6>
+			 <h6 class="m-0">Product Strategy</h6>
+		  </div>
+		  <div class="cajas-services">
+		  	<img src="assets/images/services-3.png" alt="services-3" class="services-3">
+			 <h5 class="text-uppercase mb-0">desing and branding</h5>
+			 <h6 class="m-0">Interaction Design</h6>
+			 <h6 class="m-0">Graphic Design</h6>
+			 <h6 class="m-0">Identity Design</h6>
+		  </div>
+		</div>
+	 </section>
+	 <section id="work">
+		<div class="container work">
+		  <h2 class="text-uppercase txt-work">work</h2>
+		  <h4>
+			 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididuntut,<br>
+			 magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+		  </h4>
+		  <img src="assets/images/hero.png" alt="hero" class="hero">
+		</div>
+		<!-- Contenedor de imagenes -->
+		<div class="container projects_row1">
+			<div class="row">
+				<img src="assets/images/work-1.jpg" alt="row1-1" class="row1-1">
+				<p class="text-uppercase txt-img">Nombre del proyecto</p>
+			</div>
+			<div class="row">
+				<img src="assets/images/work-2.jpg" alt="row1-2" class="row1-2">
+				<p class="text-uppercase txt-img">Nombre del proyecto</p>
+			</div>
+			<div class="row">
+				<img src="assets/images/work-3.jpg" alt="row1-3" class="row1-3">
+				<p class="text-uppercase txt-img">Nombre del proyecto</p>
+			</div>
+		</div>
+		<div class="container projects_row2">
+			<div class="row">
+				<img src="assets/images/work-4.jpg" alt="row2-4" class="row2-4">
+				<p class="text-uppercase txt-img">Nombre del proyecto</p>
+			</div>
+			<div class="row">
+				<img src="assets/images/work-5.jpg" alt="row2-5" class="row2-5">
+				<p class="text-uppercase txt-img">Nombre del proyecto</p>
+			</div>
+			<div class="row">
+				<img src="assets/images/work-6.jpg" alt="row2-6" class="row2-6">
+				<p class="text-uppercase txt-img">Nombre del proyecto</p>
+			</div>
+		</div>
+		<div class="container projects_row3">
+			<div class="row">
+				<img src="assets/images/work-7.jpg" alt="row3-7" class="row3-7">
+				<p class="text-uppercase txt-img">Nombre del proyecto</p>
+			</div>
+			<div class="row">
+				<img src="assets/images/work-10.jpg" alt="row3-10" class="row3-10">
+				<p class="text-uppercase txt-img">Nombre del proyecto</p>
+			</div>
+			<div class="row">
+				<img src="assets/images/work-11.jpg" alt="row3-11" class="row3-11">
+				<p class="text-uppercase txt-img">Nombre del proyecto</p>
+			</div>
+		</div>
+	 </section>
+	 <footer>
+		<p>&#169; Copyright</p>
+	 </footer>
   </body>
 </html>
