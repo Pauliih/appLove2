@@ -192,6 +192,11 @@ div{
 	overflow: hidden;
 }
 
+.projects_row4 img{
+	width: 100%;
+	overflow: hidden;
+}
+
 .row{
 	padding: 40px;
 	width: 33.3%;
@@ -205,9 +210,9 @@ div{
 /*----------------------------------------*/
 footer{
 	text-align: center;
-  height: 70px;
-  background-color: #373b47;
-  color: white;
-  padding-top: 5px;
-  margin-top: 50px;
+  	height: 70px;
+	background-color: #373b47;
+	color: white;
+	padding-top: 5px;
+	margin-top: 50px;
 }
